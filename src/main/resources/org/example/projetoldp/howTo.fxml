@@ -4,7 +4,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="421.8" prefWidth="600.0" style="-fx-background-color: lightgreen;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.projetoldp.howToController">
+<AnchorPane prefHeight="421.8" prefWidth="600.0" style="-fx-background-color: lightgreen;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.projetoldp.howToController">
     <children>
         <Text layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Como jogar" textAlignment="CENTER" wrappingWidth="600.0" AnchorPane.bottomAnchor="335.8" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="28.0">
             <font>
@@ -21,7 +21,7 @@
             <Font name="Trebuchet MS" size="18.0" />
          </font>
       </Text>
-      <Text fill="#0033ff" layoutX="67.0" layoutY="287.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-line-spacing: 1.5;" text="O jogador para depois mover as suas peças deve clicar na sua peça e depois para onde deseja-a mover." textAlignment="CENTER" wrappingWidth="499.0">
+      <Text fill="RED" layoutX="67.0" layoutY="287.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-line-spacing: 1.5;" text="O jogador para depois mover as suas peças deve clicar na sua peça e depois para onde deseja-a mover." textAlignment="CENTER" wrappingWidth="499.0">
          <font>
             <Font name="Trebuchet MS" size="18.0" />
          </font>
