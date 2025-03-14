@@ -21,7 +21,7 @@
             <Font name="Trebuchet MS" size="18.0" />
          </font>
       </Text>
-      <Text fill="RED" layoutX="67.0" layoutY="287.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-line-spacing: 1.5;" text="O jogador para depois mover as suas peças deve clicar na sua peça e depois para onde deseja-a mover." textAlignment="CENTER" wrappingWidth="499.0">
+      <Text fill="RED" layoutX="67.0" layoutY="287.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-line-spacing: 1.5;" text="O jogador para mover as suas peças terá que clicar na sua peça e sucessivamente para onde deseja-a mover." textAlignment="CENTER" wrappingWidth="499.0">
          <font>
             <Font name="Trebuchet MS" size="18.0" />
          </font>
