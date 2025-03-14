@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="421.8" prefWidth="600.0" style="-fx-background-color: lightgreen;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.picaria_ldp.howToController">
+    <children>
+        <Text layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Como jogar" textAlignment="CENTER" wrappingWidth="600.0" AnchorPane.bottomAnchor="335.8" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="28.0">
+            <font>
+                <Font name="Trebuchet MS Bold" size="50.0" />
+            </font>
+        </Text>
+        <Button layoutX="254.0" layoutY="332.0" mnemonicParsing="false" onAction="#voltar" prefHeight="26.0" prefWidth="94.0" style="-fx-border-color: black; -fx-font-weight: bold; -fx-background-color: red;" text="Voltar" textAlignment="CENTER" textFill="WHITE" AnchorPane.bottomAnchor="42.0" AnchorPane.leftAnchor="254.0" AnchorPane.rightAnchor="252.0" AnchorPane.topAnchor="332.0">
+            <font>
+                <Font name="Trebuchet MS" size="12.0" />
+            </font>
+        </Button>
+      <Text layoutX="52.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-line-spacing: 1.5;" text="O jogo começa com cada jogador, por sua vez, colocando uma peça em um dos espaços, exceto no centro. Após as três peças serem colocadas nos espaços, o jogador pode mover uma peça por turno ao longo das linhas (verticalmente, horizontalmente ou diagonalmente) para tentar alinhar três peças. Nesse momento, já é permitido mover as peças para ocupar o centro." textAlignment="CENTER" wrappingWidth="499.0" AnchorPane.bottomAnchor="169.3986328125" AnchorPane.leftAnchor="52.0" AnchorPane.rightAnchor="49.0" AnchorPane.topAnchor="97.0986328125">
+         <font>
+            <Font name="Trebuchet MS" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#0033ff" layoutX="67.0" layoutY="287.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-line-spacing: 1.5;" text="O jogador para depois mover as suas peças deve clicar na sua peça e depois para onde deseja-a mover." textAlignment="CENTER" wrappingWidth="499.0">
+         <font>
+            <Font name="Trebuchet MS" size="18.0" />
+         </font>
+      </Text>
+    </children>
+</AnchorPane>

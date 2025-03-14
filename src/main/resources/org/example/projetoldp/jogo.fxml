@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="421.8" prefWidth="600.0" style="-fx-background-color: lightgreen;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.picaria_ldp.jogoController">
+  <children>
+      <Line endX="424.0" endY="235.39646911621094" startX="173.79290771484375" startY="233.75" strokeWidth="2.0" />
+      <Line endX="423.5" endY="356.29290771484375" startX="423.5" startY="114.5" strokeWidth="2.0" />
+      <Line endX="416.0" endY="113.49998474121094" startX="174.5" startY="113.5" strokeWidth="2.0" />
+      <Line endX="173.79290771484375" endY="353.29290771484375" startX="173.79290771484375" startY="114.20709228515625" strokeWidth="2.0" />
+      <Line endX="174.5" endY="373.5" startX="424.29290771484375" startY="373.5" strokeWidth="2.0" />
+      <Line endX="413.0" endY="364.29290771484375" startX="174.79290771484375" startY="113.20709228515625" strokeWidth="2.0" />
+      <Line endX="183.0" endY="365.7071533203125" startX="414.4141845703125" startY="124.5" strokeWidth="2.0" />
+      <Line endX="299.396484375" endY="374.5" startX="299.396484375" startY="114.91421508789062" strokeWidth="2.0" />
+      <Line endX="292.0" endY="123.08578491210938" startX="172.79290771484375" startY="244.5" strokeWidth="2.0" />
+      <Line endX="414.4141845703125" endY="255.2928924560547" startX="299.396484375" startY="372.5" strokeWidth="2.0" />
+      <Line endX="181.5858154296875" endY="252.2928924560547" layoutX="2.0" startX="287.5" startY="365.7071228027344" strokeWidth="2.0" />
+      <Line endX="437.0" endY="261.29290771484375" startX="300.396484375" startY="113.91421508789062" strokeWidth="2.0" />
+  <GridPane alignment="CENTER" layoutX="150.0" layoutY="49.0" prefHeight="300.0" prefWidth="300.0" style="-fx-hgap: 12;" translateY="35.0" AnchorPane.bottomAnchor="51.0" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="150.0" AnchorPane.topAnchor="49.0">
+    <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    </columnConstraints>
+    <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    </rowConstraints>
+    <children>
+      <Button fx:id="Button1" focusTraversable="false" mnemonicParsing="false" onAction="#jogo" prefHeight="50.0" prefWidth="50.0" style="-fx-border-color: black; -fx-border-width: 2px;">
+        <font>
+          <Font size="18.0" />
+        </font>
+            </Button>
+      <Button fx:id="Button2" focusTraversable="false" mnemonicParsing="false" onAction="#jogo" prefHeight="50.0" prefWidth="50.0" style="-fx-border-color: black; -fx-border-width: 2px;" GridPane.columnIndex="2">
+        <font>
+          <Font size="18.0" />
+        </font>
+            </Button>
+      <Button fx:id="Button3" focusTraversable="false" mnemonicParsing="false" onAction="#jogo" prefHeight="50.0" prefWidth="50.0" style="-fx-border-color: black; -fx-border-width: 2px;" GridPane.columnIndex="4">
+        <font>
+          <Font size="18.0" />
+        </font>
+            </Button>
+      <Button fx:id="Button4" focusTraversable="false" mnemonicParsing="false" onAction="#jogo" prefHeight="50.0" prefWidth="50.0" style="-fx-border-color: black; -fx-border-width: 2px;" GridPane.columnIndex="3" GridPane.rowIndex="1">
+        <font>
+          <Font size="18.0" />
+        </font>
+            </Button>
+      <Button fx:id="Button5" focusTraversable="false" mnemonicParsing="false" onAction="#jogo" prefHeight="50.0" prefWidth="50.0" style="-fx-border-color: black; -fx-border-width: 2px;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+        <font>
+          <Font size="18.0" />
+        </font>
+            </Button>
+      <Button fx:id="Button6" focusTraversable="false" mnemonicParsing="false" onAction="#jogo" prefHeight="50.0" prefWidth="50.0" style="-fx-border-color: black; -fx-border-width: 2px;" GridPane.rowIndex="2">
+        <font>
+          <Font size="18.0" />
+        </font>
+            </Button>
+      <Button fx:id="Button7" focusTraversable="false" mnemonicParsing="false" onAction="#jogo" prefHeight="50.0" prefWidth="50.0" style="-fx-border-color: black; -fx-border-width: 2px;" GridPane.columnIndex="2" GridPane.rowIndex="2">
+        <font>
+          <Font size="18.0" />
+        </font>
+            </Button>
+      <Button fx:id="Button8" focusTraversable="false" mnemonicParsing="false" onAction="#jogo" prefHeight="50.0" prefWidth="50.0" style="-fx-border-color: black; -fx-border-width: 2px;" GridPane.columnIndex="4" GridPane.rowIndex="2">
+        <font>
+          <Font size="18.0" />
+        </font>
+            </Button>
+      <Button fx:id="Button9" focusTraversable="false" mnemonicParsing="false" onAction="#jogo" prefHeight="50.0" prefWidth="50.0" style="-fx-border-color: black; -fx-border-width: 2px;" GridPane.columnIndex="3" GridPane.rowIndex="3">
+        <font>
+          <Font size="18.0" />
+        </font>
+            </Button>
+            <Button fx:id="Button10" focusTraversable="false" layoutX="127.0" layoutY="128.0" mnemonicParsing="false" onAction="#jogo" prefHeight="50.0" prefWidth="50.0" style="-fx-border-color: black; -fx-border-width: 2px;" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="Button11" focusTraversable="false" layoutX="49.0" layoutY="128.0" mnemonicParsing="false" onAction="#jogo" prefHeight="50.0" prefWidth="50.0" style="-fx-border-color: black; -fx-border-width: 2px;" GridPane.rowIndex="4">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="Button12" focusTraversable="false" layoutX="10.0" layoutY="168.0" mnemonicParsing="false" onAction="#jogo" prefHeight="50.0" prefWidth="50.0" style="-fx-border-color: black; -fx-border-width: 2px;" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="Button13" focusTraversable="false" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#jogo" prefHeight="50.0" prefWidth="50.0" style="-fx-border-color: black; -fx-border-width: 2px;" GridPane.columnIndex="4" GridPane.rowIndex="4">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+    </children>
+  </GridPane>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="textoGrande" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vez do &quot;Jogador&quot;" textAlignment="CENTER" wrappingWidth="600.0">
+         <font>
+            <Font name="Trebuchet MS" size="40.0" />
+         </font></Text>
+      <Text fx:id="infoPecaUm" layoutX="14.0" layoutY="101.0" lineSpacing="1.5" strokeType="OUTSIDE" strokeWidth="0.0" text="Peças do Jogador: 3" textAlignment="CENTER" wrappingWidth="115.82421875">
+         <font>
+            <Font name="Trebuchet MS" size="14.0" />
+         </font>
+      </Text>
+      <Button fx:id="fimT" layoutX="483.0" layoutY="373.0" mnemonicParsing="false" onAction="#fimTurno" prefHeight="25.0" prefWidth="95.0" text="Acabar Turno" />
+      <Button fx:id="botaoFinal" layoutX="229.0" layoutY="204.0" mnemonicParsing="false" onAction="#fimJogo" prefHeight="62.0" prefWidth="139.0" text="Voltar ao Menu" />
+  </children>
+</AnchorPane>
