@@ -29,7 +29,7 @@ public class createPlayerController extends Main {
 
 
     /**
-     *  Este metódo serve para entrar no servidor e ao mesmo tempo registrar o utilizador
+     *  Este metódo serve para entrar no servidor e mesmo tempo registrar o utilizador
      * @param e O ActionEvent é registado ao clicar no botao
      * @throws IOException Caso exista algum erro ao carregar o FXML.
      */
