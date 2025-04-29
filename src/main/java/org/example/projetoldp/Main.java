@@ -22,7 +22,7 @@ public class Main {
     public static Cliente cliente;
 
     /**
-     * É o main
+     * É o mai
      * @param args
      * @throws UnknownHostException
      * @throws IOException
