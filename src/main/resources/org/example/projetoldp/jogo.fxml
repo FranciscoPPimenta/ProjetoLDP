@@ -5,7 +5,7 @@
 <?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="421.8" prefWidth="600.0" style="-fx-background-color: lightgreen;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.projetoldp.jogoController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="421.8" prefWidth="600.0" style="-fx-background-color: #C4A484;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.projetoldp.jogoController">
   <children>
       <Line endX="424.0" endY="235.39646911621094" startX="173.79290771484375" startY="233.75" strokeWidth="2.0" />
       <Line endX="423.5" endY="356.29290771484375" startX="423.5" startY="114.5" strokeWidth="2.0" />
