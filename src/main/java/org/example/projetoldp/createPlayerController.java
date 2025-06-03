@@ -28,11 +28,7 @@ public class createPlayerController extends Main {
     private Scene scene;
 
 
-    /**
-     *  Este metódo serve para entrar no servidor e mesmo tempo registrar o utilizador
-     * @param e O ActionEvent é registado ao clicar no botao
-     * @throws IOException Caso exista algum erro ao carregar o FXML.
-     */
+    //entrar no servidor
     @FXML
     protected void criarJogador(ActionEvent e) throws IOException {
 

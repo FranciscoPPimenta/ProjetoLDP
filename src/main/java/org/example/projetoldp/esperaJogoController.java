@@ -31,16 +31,7 @@ public class esperaJogoController extends Main implements Initializable {
     private Text textoInfo;
 
 
-    /**
-     * Este método é da interface Initializable e serve para quando inicializar o FXML já mudar os valores ou até neste caso para saber se sou o player 1 ou 2
-     * @param location
-     * The location used to resolve relative paths for the root object, or
-     * {@code null} if the location is not known.
-     *
-     * @param resources
-     * The resources used to localize the root object, or {@code null} if
-     * the root object was not localized.
-     */
+
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
@@ -60,10 +51,7 @@ public class esperaJogoController extends Main implements Initializable {
 
     }
 
-    /**
-     * Este método serve para processar a mensagem enviada pelo servidor
-     * @param mensagem é a mensagem recebida pelo servidor
-     */
+    //processar imagem do servidor
     private void processarMensagem(String mensagem) {
 
 

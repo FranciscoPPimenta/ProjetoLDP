@@ -11,7 +11,7 @@
                 <Font name="Trebuchet MS Bold" size="50.0" />
             </font>
         </Text>
-        <Button layoutX="254.0" layoutY="332.0" mnemonicParsing="false" onAction="#voltar" prefHeight="26.0" prefWidth="94.0" style="-fx-border-color: black; -fx-font-weight: bold; -fx-background-color: red;" text="Voltar" textAlignment="CENTER" textFill="WHITE" AnchorPane.bottomAnchor="42.0" AnchorPane.leftAnchor="254.0" AnchorPane.rightAnchor="252.0" AnchorPane.topAnchor="332.0">
+        <Button layoutX="255.0" layoutY="349.0" mnemonicParsing="false" onAction="#voltar" prefHeight="26.0" prefWidth="94.0" style="-fx-border-color: black; -fx-font-weight: bold; -fx-background-color: red;" text="Voltar" textAlignment="CENTER" textFill="WHITE" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="255.0" AnchorPane.rightAnchor="251.0" AnchorPane.topAnchor="349.0">
             <font>
                 <Font name="Trebuchet MS" size="12.0" />
             </font>

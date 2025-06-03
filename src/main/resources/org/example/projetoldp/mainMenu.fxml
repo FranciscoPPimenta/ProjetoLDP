@@ -11,7 +11,7 @@
             <Font name="Trebuchet MS Bold" size="50.0" />
          </font>
       </Text>
-      <Text fontSmoothingType="LCD" layoutX="409.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="Vitórias do Jogador" textAlignment="CENTER" wrappingWidth="150.0">
+      <Text fontSmoothingType="LCD" layoutX="409.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="Vitórias do Jogador" textAlignment="CENTER" wrappingWidth="150.0">
          <font>
             <Font name="Trebuchet MS" size="14.0" />
          </font>

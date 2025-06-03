@@ -8,6 +8,7 @@ import java.net.Socket;
 import java.util.ArrayList;
 import java.util.List;
 
+//criacao do cliente + entrada no servidor
 public class Cliente {
     private Socket s;
     private DataInputStream dis;
@@ -20,14 +21,7 @@ public class Cliente {
 
     private List<OuvinteMensagem> ouvintes = new ArrayList<>();
 
-    /**
-     * Construtor da classe Cliente. Começa a conexão com o servidor e inicia a thread para ouvir mensagens.
-     *
-     * @param nome  O nome do cliente.
-     * @param ip    O endereço IP do servidor.
-     * @param porta A porta do servidor.
-     * @throws IOException Caso exista algum erro ao conectar ao servidor
-     */
+    //criacao do cliente
     public Cliente(String nome,InetAddress ip, int porta) throws IOException {
 
         this.nome=nome;
@@ -52,11 +46,7 @@ public class Cliente {
         });
         lerMensagem.start();
     }
-    /**
-     * Envia uma mensagem para o servidor.
-     *
-     * @param mensagem A mensagem a ser enviada.
-     */
+    // envia a mensagem de entrada/jogada/etc ao servidor
     public void enviarMensagem(String mensagem) {
         try {
             dos.writeUTF(mensagem);
@@ -65,52 +55,32 @@ public class Cliente {
             e.printStackTrace();
         }
     }
-    /**
-     * Adiciona um ouvinte de mensagem à lista de ouvintes.
-     *
-     * @param ouvinte O ouvinte de mensagem a ser adicionado.
-     */
+    //adiciona ouvinte
     public void adicionarOuvinte(OuvinteMensagem ouvinte) {
         ouvintes.add(ouvinte);
 
     }
-    /**
-     * Notifica todos os ouvintes sobre uma nova mensagem recebida.
-     *
-     * @param mensagem A mensagem recebida.
-     */
+    //envia mensagem a todas os ouvintes
     private void notificarOuvintes(String mensagem) {
         for (OuvinteMensagem ouvinte : ouvintes) {
             ouvinte.mensagemRecebida(mensagem);
 
         }
     }
-    /**
-     * Interface para ouvintes de mensagem. Implementada para receber "notificações" de novas mensagens.
-     */
+    //interface de ouvintes
     public interface OuvinteMensagem {
         void mensagemRecebida(String mensagem);
     }
 
-    /**
-     * Getter do Nome
-     * @return retorna o nome
-     */
+
     public String getNome() {
         return nome;
     }
 
-    /**
-     * Aumenta as vitórias
-     */
     public void ganhou() {
         this.counterWins ++;
     }
 
-    /**
-     * Getter das Vitórias
-     * @return o número de vitórias
-     */
     public int getCounterWins() {
         return counterWins;
     }
