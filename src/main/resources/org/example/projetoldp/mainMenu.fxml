@@ -6,7 +6,7 @@
 
 <AnchorPane prefHeight="421.8" prefWidth="600.0" style="-fx-background-color: #C4A484;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.projetoldp.MainMenuController">
    <children>
-      <Text layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Picaria" textAlignment="CENTER" wrappingWidth="600.0">
+      <Text layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Picaria" textAlignment="CENTER" wrappingWidth="600.0">
          <font>
             <Font name="Trebuchet MS Bold" size="50.0" />
          </font>
